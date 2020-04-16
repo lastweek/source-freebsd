@@ -38,6 +38,15 @@ For all commands you've came across, it's likely you will find the source code h
 
 ## Kernel
 
-- sys/
+FreeBSD is a monolithic kernel.
+
+- sys/dev - Device Drivers
+    - The number of drivers are not large, around 200-300.
+      But I guess should be able to run on top of most platforms,
+      coz I have never heard complaints about lack of device drivers.
+    - `sys/dev/mlx5`
 - sys/vm
 - sys/sys
+
+## ifconfig
+Apr 7: helped me find out how to get MTU size.
